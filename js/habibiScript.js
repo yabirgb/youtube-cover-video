@@ -8,8 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Save the data from inputs to localStorage when clicking the preview button
   document.getElementById('preview-button').addEventListener("click", saveInputData);
+<<<<<<< HEAD
   document.getElementById('download-button').addEventListener("click", habibaty);
   //the download button now has to trigger the new function
+=======
+>>>>>>> 1203df798be9df49f5cd3db2873c4e181b4456dc
 
 // Save the data from inputs to localStorage
   function saveInputData() {
@@ -18,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem("header", headerText);
     localStorage.setItem("secheader", secHeaderText);
   }
+<<<<<<< HEAD
 
   function habibaty(){
       //template with the info parsed
@@ -50,4 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
   }
+=======
+>>>>>>> 1203df798be9df49f5cd3db2873c4e181b4456dc
 });
